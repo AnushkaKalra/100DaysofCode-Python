@@ -100,50 +100,49 @@ while True:
 # Library Code is below.
 ################################################################
 
+# '''
+# Version 2
+# '''
 
-'''
-Version 2
-'''
+# def turn_right():
+#     for i in range(3):
+#         turn_left()
 
-def turn_right():
-    for i in range(3):
-        turn_left()
-
-def turn_around():
-    turn_left()
-    turn_left()
+# def turn_around():
+#     turn_left()
+#     turn_left()
     
 
-def move_around_garden():
-    turn_left()
-    if not is_facing_north():
-        #move()
-        #turn_left()
-        #fix_one_row()
-    #else:
-        turn_around()
-        move()
-        turn_right()
-        fix_one_row()
+# def move_around_garden():
+#     turn_left()
+#     if not is_facing_north():
+#         #move()
+#         #turn_left()
+#         #fix_one_row()
+#     #else:
+#         turn_around()
+#         move()
+#         turn_right()
+#         fix_one_row()
  
-def fix_carrots():
-    while object_here():
-        take()
-    if step<6:
-        put()
-    else:
-        move_around_garden()
+# def fix_carrots():
+#     while object_here():
+#         take()
+#     if step<6:
+#         put()
+#     else:
+#         move_around_garden()
         
-def fix_one_row():
-    step = 0
-    if object_here():
-        step = 1
-        fix_carrots()
-    while step<6:
-        move()
-        step += 1
-        fix_carrots()
-        continue
+# def fix_one_row():
+#     step = 0
+#     if object_here():
+#         step = 1
+#         fix_carrots()
+#     while step<6:
+#         move()
+#         step += 1
+#         fix_carrots()
+#         continue
 
     
 
@@ -164,13 +163,13 @@ def fix_one_row():
     
         
         
-turn_left()
-move()
-move()
-turn_right()
-move()
-#move()
-for i in range(6):
-    fix_one_row()
-# if wall_in_front():
-#     turn_around()
+# turn_left()
+# move()
+# move()
+# turn_right()
+# move()
+# #move()
+# for i in range(6):
+#     fix_one_row()
+# # if wall_in_front():
+# #     turn_around()
