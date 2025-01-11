@@ -7,5 +7,6 @@ def get_age():
     print(f"The age of the student is {age}.")
 
 # Get student details
+
 student_name = get_name()
 student_age = get_age()
