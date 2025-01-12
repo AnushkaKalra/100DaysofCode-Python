@@ -1,8 +1,3 @@
-from art import logo
-print(logo)
-bid_dictionary = {}
-
-
 def find_maximum_bid(bid_dictionary):
     highest_bidder = None
     maximum_bid = float('-inf')
@@ -36,5 +31,9 @@ def bid_round(bid_dictionary):
     find_maximum_bid(bid_dictionary)
     return bid_dictionary
 
+# main
+from art import logo
+print(logo)
+bid_dictionary = {}
 
 bid_round(bid_dictionary)
