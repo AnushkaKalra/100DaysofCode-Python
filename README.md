@@ -1,1 +1,14 @@
 # 100 Days of Code Python
+
+Projects completed:
+
+- Tip Calculator Project
+- Treasure Island Project
+- Rock Paper Scissors
+- Password Generator Project
+- Hangman
+- Caesar Cipher
+- Blind Auction Project
+- The Calculator Project
+- The Blackjack Capstone Project
+
