@@ -1,5 +1,8 @@
 # 100 Days of Code Python
 
+Course by: Dr. Angela Yu
+
+
 Projects completed:
 
 - Tip Calculator Project
