@@ -18,6 +18,15 @@ def my_function():
     print(a)
 '''
 
+# Modifying Global Scope
+
+# enemies = 1
+
+# def increase_enemies():
+#     global enemies
+#     enemies += 1
+#     print(f"enemies inside function: {enemies}")
+
 enemies = 1
 
 
