@@ -14,4 +14,5 @@ Projects completed:
 - Blind Auction Project
 - The Calculator Project
 - The Blackjack Capstone Project
-
+- The Number Guessing Game
+- Higher Lower Game Project
