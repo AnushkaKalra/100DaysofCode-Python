@@ -16,3 +16,4 @@ Projects completed:
 - The Blackjack Capstone Project
 - The Number Guessing Game
 - Higher Lower Game Project
+- Coffee Machine Program Project (in Progress)
