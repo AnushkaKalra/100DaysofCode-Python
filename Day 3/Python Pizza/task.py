@@ -35,4 +35,4 @@ else:
     total_bill += 0
 
 # Final Billing
-print(f"Your final bill is: ${total_bill}. ")
+print(f"Your final bill is: ${total_bill}.")
